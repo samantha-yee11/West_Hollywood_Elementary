@@ -1,0 +1,23 @@
+/*text*/
+h1, h2, h3, h4, h5 {font-family: 'Quicksand', sans-serif;}
+body, a {font-family: 'Montserrat', sans-serif;}
+/*background*/
+body {
+    background-color: #F8F8F8;
+}
+/*nav*/
+.purpledivider {
+    color: #7E82F9;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar {
+    background-color: rgba(151, 151, 151, 0.3);
+}
+/*dailychallenge*/
+
+/*margins*/
+.dailychallengecontainer {
+    margin-top: 50px;
+}
