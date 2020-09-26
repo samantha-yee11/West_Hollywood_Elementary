@@ -14,19 +14,18 @@ body {
 nav {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
+    
 }
+.bg-light {}
 /*hero*/
-.bg-hero {
-    background-image: url(../images/herobookmark-bottom.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 170px;
-}
 .bgherobookmark {
-    background-image: url(../images/herobookmark.png);
-    background-position: left;
-    background-repeat: no-repeat;
+    background-color: #7E82F9;
+}
+.herobookmark-bottom {
+    background-color: #7E82F9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
 }
 .carousel-caption {
     background-color: rgba(255, 255, 255, 0.692);
@@ -35,14 +34,50 @@ nav {
     color: #5457af;
 }
 /*dailychallenge*/
-
+.bgchallengesquare {
+    background-image: url(../images/bgchallengesquare.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
 /*margins*/
 .containermargintop {
     margin-top: 50px;
+}
+.marginright30 {
+    margin-right: 30px;
 }
 /*mentoring*/
 .mentortxt {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.bgmentorsquare {
+    background-image: url(../images/bgmentorsquare.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+/*covid*/
+.bggrabngo {
+    background-image: url(../images/bgcovidsquare.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*events*/
+.marginleft30 {
+    margin-left: 30px;
+}
+.bgcalendarsquare {
+    background-image: url(../images/bgcalendarsquare.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

@@ -6,11 +6,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>West Hollywood Elementary</title>
 </head>
 <body>
 <!--navigation-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="d-flex flex-grow-1">
         <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
         <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
@@ -134,69 +135,128 @@
               </div>
         </div>
     </div>
-    <div class="herobookmark-bottom"></div>
+    <div class="herobookmark-bottom">
+        <h3>Welcome to West Hollywood</h3>
+        <h1>Elementary</h1>
+    </div>
 </div>
 <!--daily challenge-->
 <div class="container containermargintop">
-    <div class="row">
-        <div class="col-sm-3">
-            <div>
+    <div class="row bgchallengesquare">
+            <div class="marginright30">
                 <img src="images/challengebookmark.png" alt="daily challenges title">
             </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center cardmargin" style="width: 18rem;">
+        <div class="card-deck">
+
+            <div class="card text-center" style="width: 16rem;">
                 <img src="images/dailychallenge1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Get Your Body Moving</h5>
+                    <h5 class="card-title">Move for 10 mins</h5>
                     <a href="#" class="btn btn-outline-info">Let's Move!</a>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center" style="width: 18rem;">
+
+            <div class="card text-center" style="width: 16rem;">
                 <img src="images/dailychallenge2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Get Creative</h5>
                     <a href="#" class="btn btn-outline-info">Let's Create!</a>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card text-center" style="width: 18rem;">
+
+            <div class="card text-center" style="width: 16rem;">
                 <img src="images/dailychallenge3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Get Social</h5>
                     <a href="#" class="btn btn-outline-info">Let's Hang!</a>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 <!--extra mentoring-->
 <div class="container containermargintop">
     <div class="row">
-        <div class="col-sm-5 mentortxt">
-            <h4>Visit the Learning
-                Hub</h4>
+        <div class="col-sm-4 mentortxt">
+            <h2>Visit the Learning
+                Hub</h2>
             <p>For tech support, teaching resources, and more!</p>
             <a href="#" class="btn btn-outline-warning">Get Support</a>
         </div>
-        <div class="col-sm-2">
+        <div class="bgmentorsquare col-sm-8">
+            <div>
             <img src="images/mentoringbookmark.png" alt="extra mentoring">
-        </div>
-        <div class="col-sm-5">
-            <img src="images/mentoring.png" alt="">
+            </div>
+            <div>
+                <img src="images/mentoring.png" alt="">
+            </div>
         </div>
     </div>
 </div>
 <!--covid-19-->
-
+<div class="container containermargintop">
+    <div class="row">
+        <div class="col-sm-2">
+            <img src="images/covidbookmark.png" alt="covid-19 resources">
+        </div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 bggrabngo">
+            <h2>Grab and Go Meals</h2>
+            <p>breakfast and lunch available 7-10AM</p>
+            <img src="images/grabngo.png" alt="">
+        </div>
+    </div>
+</div>
 <!--upcoming-->
+<div class="container containermargintop">
+    <div class="row bgcalendarsquare">
+        <div class="card-deck">
 
+            <div class="card text-center" style="width: 16rem;">
+                <img src="#" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Parent Conference</h5>
+                    <p class="card-subtitle mb-2 text-muted">How to support your child at home</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"> Oct. 6</li>
+                        <li class="list-group-item">6PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card text-center" style="width: 16rem;">
+                <img src="#" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Virtual Costume Contest</h5>
+                    <p class="card-subtitle mb-2 text-muted">Put on your best costume</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Oct.31</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card text-center" style="width: 16rem;">
+                <img src="#" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mid-winter Break</h5>
+                    <p class="card-subtitle mb-2 text-muted">he holidays are coming</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Nov. 15-30</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="marginleft30">
+            <img src="images/eventsbookmark.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
 <!--script-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
