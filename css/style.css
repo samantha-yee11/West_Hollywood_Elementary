@@ -8,12 +8,8 @@ body {
 /*nav*/
 .purpledivider {
     color: #7E82F9;
-    font-weight: 500;
-    margin-left: 10px;
+    font-weight: 700;
     margin-right: 10px;
-}
-.navbar {
-    background-color: rgba(151, 151, 151, 0.3);
 }
 /*dailychallenge*/
 
