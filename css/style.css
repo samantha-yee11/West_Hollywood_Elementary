@@ -11,9 +11,38 @@ body {
     font-weight: 700;
     margin-right: 10px;
 }
+nav {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+/*hero*/
+.bg-hero {
+    background-image: url(../images/herobookmark-bottom.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 170px;
+}
+.bgherobookmark {
+    background-image: url(../images/herobookmark.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.carousel-caption p,.carousel-caption h5 {
+    color: #5457af;
+}
 /*dailychallenge*/
 
 /*margins*/
-.dailychallengecontainer {
+.containermargintop {
     margin-top: 50px;
+}
+/*mentoring*/
+.mentortxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
